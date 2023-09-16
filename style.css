@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,200;1,300&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #052F5F;
+    padding: 2%;
+}
+.main-container {
+    background-color: white;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: 500 ;
+}
+#header .logo {
+    font-size: 18px;
+    font-weight: 700;
+}
+#header .links{
+    display: flex;
+    gap: 20px
+}
+#header .links a {
+    color: #02111B;
+    text-decoration: none;
+}
+
+/* hero section css */
+.hero-section {
+    padding: 5% 10%;
+    text-align: center;
+}
+.hero-section h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.btn-style {
+    background-color: transparent;
+    border: 2px solid #052F5F;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: 'Light 300';
+}
+.btn-style:hover {
+    background-color: #052F5F;
+    color: white
+}
+
+/* experience section */
+#experience{
+    margin-top: 5%;
+    padding: 5%;
+    flex-wrap: wrap;
+    background-color: #eef6fe;
+}
+#experience .text {
+    padding-bottom: 5%;
+}
+.cards {
+    padding-bottom: 5%;
+}
+.cards .col {
+    text-align: center;
+}
+.cards .col h5, .cards .col p {
+    font-size: 14px;
+}
+#experience .cards h5 {
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.color-bold {
+    color: #052F5F
+}
+/* Services */
+#services {
+    margin-top: 5%;
+    padding: 5%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#services h1 {
+    padding-bottom: 25px;
+    font-weight: 700;
+    color: #052F5F;
+    font-weight: 300;
+}
+#services .col h5 {
+    font-weight: 600;
+}
+#services .col * {
+    margin-bottom: 20px;
+}
+/* footer */
+#footer .row {
+    display: flex;
+    flex-direction: row;
+}
+#footer span {
+    font-size: 40px;
+    padding: 40px;
+   
+}
+#footer a {
+    text-decoration: none;
+    color: #052F5F
+}
