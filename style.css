@@ -97,10 +97,11 @@ body {
 #footer .row {
     display: flex;
     flex-direction: row;
+    text-align: center;
 }
 #footer span {
     font-size: 40px;
-    padding: 40px;
+    padding: 20px;
    
 }
 #footer a {
